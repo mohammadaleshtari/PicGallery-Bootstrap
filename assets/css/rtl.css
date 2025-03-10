@@ -1,0 +1,25 @@
+body {
+  direction: rtl;
+  text-align: right;
+}
+.list-unstyled {
+  padding-right: 0px;
+}
+
+@media (min-width: 768px) {
+  .offset-md-1 {
+    margin-right: 8.3333333%;
+    margin-left: 0%;
+  }
+}
+.btn-group > .btn {
+  border-radius: 0px;
+}
+.btn-group > .btn:first-child {
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+}
+.btn-group > .btn:last-child {
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+}

@@ -1,0 +1,157 @@
+@font-face {
+  font-family: IRANYekanX;
+  src: url(../font/IRANYekanX\(Eco\)/Webfonts/woff/IRANYekanX-Regular.woff);
+}
+.font {
+  font-family: "IRANYekanX", sans-serif;
+}
+
+.box {
+  max-width: 700px;
+}
+.textsize {
+  font-size: 15px;
+}
+.display-6 {
+  font-weight: 300;
+}
+.size {
+  font-size: 15px;
+}
+#collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+#collapse.show {
+  max-height: 500px; /* مقدار مناسب را تنظیم کن */
+}
+.social-link {
+  text-decoration: none; /* حذف خط زیر لینک */
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.social-link i {
+  font-size: 20px;
+}
+
+.social-link:hover {
+  color: #ddd; /* تغییر رنگ به خاکستری ملایم */
+  text-shadow: 0px 0px 5px rgba(64, 60, 60, 0.4); /* درخشش ظریف */
+  text-decoration: none;
+}
+
+/* اطمینان از حذف خط زیر در همه حالت‌ها */
+.social-link:focus,
+.social-link:active {
+  text-decoration: none;
+}
+
+.intro-text {
+  font-size: 16px;
+  line-height: 35px;
+  margin: 15px 0px;
+}
+.pic-item {
+  background-color: #f8f9fa;
+}
+.height-class {
+  height: 220px;
+}
+.text-size {
+  font-size: 14px;
+}
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+.card-body {
+  text-align: center;
+}
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+.album-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom {
+  background-color: #6c757d;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #5a6268;
+  color: rgb(222, 225, 227);
+}
+
+.album-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #272728;
+}
+
+.album-description {
+  font-size: 1.1rem;
+  color: #272728;
+}
+
+.album-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.album-info > ul {
+  list-style: none;
+}
+
+.guide-section {
+  background-color: #fafcfe;
+  padding: 40px 0;
+}
+
+.guide-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.guide-item {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 30%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: right;
+}
+
+.guide-item h5 {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.guide-item p {
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .guide-item {
+      width: 100%;
+  }
+}
